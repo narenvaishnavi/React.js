@@ -8,6 +8,10 @@
     margin: 0 auto; */
 }
 
+.a.link{
+    color:black;
+}
+
 a.active {
     color: orange;
 }

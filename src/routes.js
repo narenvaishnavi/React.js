@@ -6,6 +6,7 @@ import AboutPage from './components/about/AboutPage';
 import CoursePage from './components/courses/CoursePage';
 import ProfessionalPage from './components/professional/ProfessionalPage';
 import FantasyPage from './components/fantasy/FantasyPage';
+import DashboardPage from './components/Dashboard/DashboardPage';
 
 export default(
     <Route path="/" component = {App}>
@@ -14,5 +15,6 @@ export default(
         <Route path="courses" component={CoursePage}/>
         <Route path="professional" component={ProfessionalPage}/>
         <Route path="fantasy" component={FantasyPage}/>
+        <Route path="dashboard" component={DashboardPage}/>
     </Route>
 );
